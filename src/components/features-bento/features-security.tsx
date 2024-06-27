@@ -1,8 +1,7 @@
 'use client';
 
-import { Folder, FolderLock, MusicNotes } from '@phosphor-icons/react';
-import { FileIcon, ImageIcon, VideoIcon } from '@radix-ui/react-icons';
-import { motion, useMotionValue } from 'framer-motion';
+import { Folder, FolderLock } from '@phosphor-icons/react';
+import { FileIcon, ImageIcon } from '@radix-ui/react-icons';
 import { CSSProperties, useEffect, useState } from 'react';
 
 import { cn } from '@/lib/utils';
@@ -22,9 +21,9 @@ export function FeaturePrivacy() {
       }
     }, 2000);
 
-    // return () => {
-    //   clearTimeout(tm);
-    // };
+    return () => {
+      clearTimeout(tm);
+    };
   }, [position]);
 
   return (
