@@ -23,7 +23,7 @@ export function FadeDown() {
       className="space-y-2"
     >
       <motion.h1
-        className="bg-gradient-to-br from-foreground to-foreground/20 bg-clip-text text-3xl font-bold tracking-tighter text-transparent sm:text-5xl xl:text-6xl/none"
+        className="bg-gradient-to-br from-primary to-foreground/80 bg-clip-text text-3xl font-bold tracking-tighter text-transparent sm:text-5xl xl:text-6xl/none"
         variants={FADE_DOWN_ANIMATION_VARIANTS}
       >
         UTUTO 11: Optimizado, innovador, histórico y Open-Source

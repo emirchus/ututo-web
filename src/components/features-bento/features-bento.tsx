@@ -1,6 +1,9 @@
 import { Fingerprint, Keyhole, LockOpen, Speedometer, TrendUp, UsersFour } from '@phosphor-icons/react/dist/ssr';
 
 import { BentoCard, BentoGrid } from '../ui/bento-grid';
+import { FeatureCommunity } from './features-community';
+import { FeatureFreedom } from './features-freedom';
+import { FeaturePrivacy } from './features-security';
 
 const features = [
   {
@@ -11,7 +14,7 @@ const features = [
     href: '/',
     cta: 'Leer más',
     className: 'col-span-3 lg:col-span-1',
-    background: <div></div>,
+    background: <FeatureCommunity />,
   },
   {
     Icon: LockOpen,
@@ -21,7 +24,7 @@ const features = [
     href: '/',
     cta: 'Leer más',
     className: 'col-span-3 lg:col-span-2',
-    background: <div></div>,
+    background: <FeatureFreedom />,
   },
   {
     Icon: Fingerprint,
@@ -31,7 +34,7 @@ const features = [
     href: '/',
     cta: 'Leer más',
     className: 'col-span-3 lg:col-span-2',
-    background: <div></div>,
+    background: <FeaturePrivacy />,
   },
   {
     Icon: Speedometer,

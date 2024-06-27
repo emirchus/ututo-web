@@ -101,17 +101,7 @@ export const Footer = () => {
       </div>
       <div className="mt-4 flex w-full flex-col items-center justify-between gap-4 border-t border-border p-2 md:flex-row">
         <div className="flex flex-col items-center gap-2 space-x-2 md:items-start">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Ututo Linux. Todos los derechos reservados.
-          </p>
-          <div className="flex gap-2">
-            <a href="https://ututo.org" className="text-sm hover:underline">
-              Términos de servicio
-            </a>
-            <a href="https://ututo.org" className="text-sm hover:underline">
-              Política de privacidad
-            </a>
-          </div>
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Ututo Linux.</p>
         </div>
         <div className="flex flex-row items-center gap-2 md:items-end">
           <a href="https://github.com/ututolinux">
