@@ -15,7 +15,7 @@ interface Item {
 let notifications = [
   {
     name: 'Nuevo Commit',
-    description: 'Se ha actualizado el repositorio de UTUTO 11',
+    description: 'Se ha actualizado el repositorio de Ututo uwu',
     time: '15m ago',
 
     icon: <GitCommit className="h-4 w-4" />,

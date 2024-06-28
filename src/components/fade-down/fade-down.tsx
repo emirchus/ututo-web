@@ -26,13 +26,13 @@ export function FadeDown() {
         className="bg-gradient-to-br from-primary to-foreground/80 bg-clip-text text-3xl font-bold tracking-tighter text-transparent sm:text-5xl xl:text-6xl/none"
         variants={FADE_DOWN_ANIMATION_VARIANTS}
       >
-        UTUTO 11: Optimizado, innovador, histórico y Open-Source
+        Ututo uwu: Optimizado, innovador, histórico y Open-Source
       </motion.h1>
       <motion.p className="max-w-[600px] text-muted-foreground md:text-xl" variants={FADE_DOWN_ANIMATION_VARIANTS}>
-        Descubre UTUTO 11, la evolución de GNU/Linux donde cada elemento es completamente libre. Originaria de Argentina
-        y dedicada a usuarios que buscan transparencia y control total, UTUTO es tu puente hacia una computación ética.
-        Con UTUTO 11, disfruta de una tecnología que respeta tu libertad y fomenta una comunidad comprometida con el
-        avance del software libre. Emprende tu viaje hacia la soberanía digital ahora.
+        Descubre Ututo uwu, la evolución de GNU/Linux donde cada elemento es completamente libre. Originaria de
+        Argentina y dedicada a usuarios que buscan transparencia y control total, UTUTO es tu puente hacia una
+        computación ética. Con Ututo uwu, disfruta de una tecnología que respeta tu libertad y fomenta una comunidad
+        comprometida con el avance del software libre. Emprende tu viaje hacia la soberanía digital ahora.
       </motion.p>
     </motion.div>
   );

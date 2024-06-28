@@ -29,7 +29,7 @@ export const Footer = () => {
             </li>
             <li>
               <a href="https://ututo.ar/" referrerPolicy="no-referrer" className="text-sm hover:underline">
-                Ututo 11
+                Ututo uwu
               </a>
             </li>
             <li>
