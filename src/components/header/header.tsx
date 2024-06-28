@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+import { ModeToggle } from '../mode-toggle';
 import { Button } from '../ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '../ui/sheet';
 
@@ -40,10 +41,11 @@ export const Header = () => {
         <Heart className="mr-2 hidden h-4 w-4" />
         Colaborar
       </Button>
-      <Button variant={'shine'} className="ml-2 hidden items-center justify-center md:flex">
+      <Button variant={'shine'} className="ml-2 mr-2 hidden items-center justify-center md:flex">
         <ComputerTower className="mr-2 h-4 w-4" />
         Ututo Legacy
       </Button>
+      <ModeToggle />
       <Sheet>
         <SheetTrigger asChild>
           <Button variant={'outline'} size={'icon'} className="ml-auto md:hidden">

@@ -45,7 +45,7 @@ export function FeaturePrivacy() {
             <div className="absolute left-0 top-0 h-full w-[70%] p-4 sm:p-6">
               <div
                 className={cn(
-                  'absolute top-0 h-[170px] w-[170px] rounded-full border border-black bg-red-100/50',
+                  'absolute top-0 h-[170px] w-[170px] rounded-full border border-border bg-secondary/30',
                   styles['magnifier-view']
                 )}
               />
