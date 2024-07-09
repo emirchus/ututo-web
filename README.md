@@ -1,4 +1,3 @@
-````markdown
 # UTUTO
 
 Bienvenido al repositorio del sitio web (no oficial) de UTUTO, la distribución GNU/Linux completamente libre. Este proyecto está desarrollado utilizando NextJS y ReactJS.
@@ -33,11 +32,11 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [Vite](https://vi
 ### Instalación
 
 1. Clona el repositorio:
+
    ```bash
    git clone https://github.com/emirchus/ututo-web.git
    cd ututo-web
    ```
-````
 
 2. Instala las dependencias:
    ```bash
