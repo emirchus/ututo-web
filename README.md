@@ -1,6 +1,9 @@
-# UTUTO
+# <img src="./public/logo.png" style="height: 40px;"/> UTUTO
+
+[![Vercel](https://vercelbadge.vercel.app/api/emirchus/ututo-web)](https://vercel.com/emirchus/ututo-web)
 
 Bienvenido al repositorio del sitio web (no oficial) de UTUTO, la distribución GNU/Linux completamente libre. Este proyecto está desarrollado utilizando NextJS y ReactJS.
+![web preview](public/web-preview.png)
 
 ## Acerca de UTUTO
 
@@ -27,7 +30,7 @@ UTUTO es una distribución del sistema operativo GNU que utiliza su propio núcl
 
 ### Prerrequisitos
 
-Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [Vite](https://vitejs.dev/).
+Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [PNPM](https://pnpm.io/es).
 
 ### Instalación
 
