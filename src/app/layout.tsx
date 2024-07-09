@@ -21,10 +21,11 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [{ url: siteConfig.ogImage, alt: siteConfig.name }],
+    siteName: siteConfig.name,
   },
   twitter: {
     title: siteConfig.name,
-    card: 'summary',
+    card: 'summary_large_image',
     site: siteConfig.url,
     creator: siteConfig.links.twitter,
     description: siteConfig.description,
