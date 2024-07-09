@@ -52,8 +52,8 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-5xl">¿Por qué UTUTO?</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Ututo es sinónimo de libertad tecnológica y privacidad indiscutible. Un sistema operativo libre para
-                  modificar y compartir, que respeta tus datos y se adapta a cualquier hardware. Con Ututo, te unes a
-                  una comunidad que promueve el apoyo mutuo y una seguridad digital firme. Elige Ututo y lidera tu
+                  modificar y compartir, que respeta tus datos y se adapta a cualquier hardware. Con Ututo, te unís a
+                  una comunidad que promueve el apoyo mutuo y una seguridad digital firme. Elegí Ututo y liderá tu
                   camino hacia la soberanía digital con cada uso.
                 </p>
               </div>
@@ -75,7 +75,7 @@ export default function Home() {
                   popularizó por su accesibilidad y la novedad del CD vivo. A lo largo de los años, UTUTO ha
                   evolucionado con variantes como UTUTO-R y UTUTO XS, manteniendo siempre su espíritu original. Tras una
                   pausa, la comunidad se ha organizado para revivir y actualizar UTUTO para los usuarios actuales.
-                  Conoce más sobre esta fascinante historia en la entrevista a Diego Saravia, alma y fundador de UTUTO
+                  Conocé más sobre esta fascinante historia en la entrevista a Diego Saravia, alma y fundador de UTUTO
                 </p>
               </div>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
                   Fondos de pantalla UTUTO!
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Personaliza tu escritorio con los fondos de pantalla de UTUTO. Descarga los diseños exclusivos de la
+                  Personalizá tu escritorio con los fondos de pantalla de UTUTO. Descargá los diseños exclusivos de la
                   comunidad para darle un toque único a tu sistema operativo.
                 </p>
               </div>
