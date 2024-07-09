@@ -6,7 +6,7 @@ export function FeatureFreedom() {
           <div className="mr-2 h-3 w-3 rounded-full bg-[#ff605c]" />
           <div className="mr-2 h-3 w-3 rounded-full bg-[#ffbd44]" />
           <div className="mr-2 h-3 w-3 rounded-full bg-[#00ca4e]" />
-          <span className="ml-auto text-sm text-[#9e9e9e]">Ututo uwu LTS</span>
+          <span className="ml-auto text-sm text-[#9e9e9e]">Ututo LTS</span>
         </div>
         <div className="overflow-auto px-4 py-2">
           <div className="text-[#9e9e9e]">

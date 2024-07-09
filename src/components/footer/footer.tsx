@@ -1,6 +1,8 @@
-import { GithubLogo, InstagramLogo, LinkedinLogo, XLogo } from '@phosphor-icons/react/dist/ssr';
+import { GithubLogo, LinkedinLogo, TelegramLogo, XLogo } from '@phosphor-icons/react/dist/ssr';
 import Link from 'next/link';
 import React from 'react';
+
+import { Cat } from '../cat';
 
 export const Footer = () => {
   return (
@@ -29,7 +31,7 @@ export const Footer = () => {
             </li>
             <li>
               <a href="https://ututo.ar/" referrerPolicy="no-referrer" className="text-sm hover:underline">
-                Ututo uwu
+                Ututo 11
               </a>
             </li>
             <li>
@@ -38,16 +40,16 @@ export const Footer = () => {
                 referrerPolicy="no-referrer"
                 className="text-sm hover:underline"
               >
-                Roadmap
+                Roadmap Ututo 11
               </a>
             </li>
           </ul>
         </div>
         <div className="flex flex-col gap-2">
-          <h6 className="text-lg font-semibold">Comunidad</h6>
+          <h6 className="text-lg font-semibold">Ututo 11</h6>
           <ul className="flex flex-col gap-1">
             <li>
-              <a href="https://ututo.org" className="text-sm hover:underline">
+              <a href="/" className="text-sm hover:underline">
                 Tienda
               </a>
             </li>
@@ -92,29 +94,40 @@ export const Footer = () => {
           <h6 className="text-lg font-semibold">Contacto</h6>
           <ul className="flex flex-col gap-1">
             <li>
-              <a href="mailto:contacto@ututo.com.ar" className="text-sm hover:underline">
-                contacto@ututo.com.ar
+              <a href="mailto:contacto@ututo.org" className="text-sm hover:underline">
+                contacto@ututo.org
               </a>
             </li>
           </ul>
         </div>
       </div>
       <div className="mt-4 flex w-full flex-col items-center justify-between gap-4 border-t border-border p-2 md:flex-row">
-        <div className="flex flex-col items-center gap-2 space-x-2 md:items-start">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Ututo Linux.</p>
+        <div className="flex flex-col items-start space-x-2 md:items-start md:space-x-0">
+          <p className="text-sm font-bold leading-6 text-muted-foreground">
+            {new Date().getFullYear()} Ututo Linux
+            <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
+              <circle cx={1} cy={1} r={1} />
+            </svg>
+            Con
+            <Cat />
+            Por Emir
+          </p>
+          <p className="text-sm leading-6 text-muted-foreground">
+            Los contenidos de este sitio estan licenciados bajo The GNU Free Documentation License
+          </p>
         </div>
         <div className="flex flex-row items-center gap-2 md:items-end">
-          <a href="https://github.com/ututolinux">
+          <a href="/" target="_blank" referrerPolicy="no-referrer">
             <GithubLogo className="h-5 w-5" />
           </a>
-          <a href="https://x.com/ututolinux">
+          <a href="https://x.com/proyecto_ututo" target="_blank" referrerPolicy="no-referrer">
             <XLogo className="h-5 w-5" />
           </a>
-          <a href="https://www.linkedin.com/company/ututo/">
+          <a href="https://www.linkedin.com/company/proyecto-ututo/" target="_blank" referrerPolicy="no-referrer">
             <LinkedinLogo className="h-5 w-5" />
           </a>
-          <a href="https://www.instagram.com/ututolinux">
-            <InstagramLogo className="h-5 w-5" />
+          <a href="https://t.me/joinchat/AAAAAA0DzFZcl2IOlXmp9Q" target="_blank" referrerPolicy="no-referrer">
+            <TelegramLogo className="h-5 w-5" />
           </a>
         </div>
       </div>

@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 
 import './globals.css';
 
+import { Footer } from '@/components/footer';
+import { Header } from '@/components/header';
 import { fontBody, fontHeading, siteConfig } from '@/lib/config';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/provider/theme-provider';
@@ -36,7 +38,11 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <body className={cn('antialiased', fontBody.variable, fontHeading.variable)}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
