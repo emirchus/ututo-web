@@ -25,7 +25,9 @@ export const metadata: Metadata = {
   twitter: {
     title: siteConfig.name,
     card: 'summary',
-    site: siteConfig.links.twitter,
+    site: siteConfig.url,
+    creator: siteConfig.links.twitter,
+    description: siteConfig.description,
     images: [{ url: siteConfig.ogImage, alt: siteConfig.name }],
   },
 };
