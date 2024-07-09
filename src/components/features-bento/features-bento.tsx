@@ -32,7 +32,7 @@ const features = [
     Icon: Fingerprint,
     name: 'Seguridad',
     description:
-      'Protege tu privacidad y tus datos con UTUTO. Nuestro compromiso con la seguridad digital es inquebrantable.',
+      'Protegé tu privacidad y tus datos con UTUTO. Nuestro compromiso con la seguridad digital es inquebrantable.',
     href: '/',
     cta: 'Leer más',
     className: 'col-span-3 lg:col-span-2',
@@ -62,7 +62,7 @@ const features = [
     Icon: TrendUp,
     name: 'Crecimiento',
     description:
-      'Crece con UTUTO. Nuestro sistema operativo está diseñado para adaptarse a tus necesidades y crecer con vos.',
+      'Crecé con UTUTO. Nuestro sistema operativo está diseñado para adaptarse a tus necesidades y crecer con vos.',
     className: 'col-span-3 lg:col-span-2',
     href: '/',
     cta: 'Leer más',
