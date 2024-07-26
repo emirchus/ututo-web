@@ -15,8 +15,8 @@ export const fontBody = Chivo({
 
 export const siteConfig = {
   name: 'Ututo Linux',
-  url: 'https://ututo-web.vercel.app/',
-  ogImage: 'https://ututo-web.vercel.app/og.png',
+  url: 'https://ututo.emirchus.ar/',
+  ogImage: 'https://ututo.emirchus.ar/og.png',
   description: 'Ututo es una distribución de Linux Argentina, hecha por la comunidad.',
   links: {
     twitter: 'https://x.com/UtutoLinux',
