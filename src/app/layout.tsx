@@ -42,6 +42,7 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning>
       <body className={cn('antialiased', fontBody.variable, fontHeading.variable)}>
         <ThemeProvider>
+          <div className="fixed top-0 z-[-2] h-screen w-screen bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,hsl(var(--primary)/0.3),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,hsl(var(--primary)/0.2),rgba(255,255,255,0))]"></div>
           <Header />
           {children}
           <Footer />

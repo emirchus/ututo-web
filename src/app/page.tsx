@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FadeDown } from '@/components/fade-down';
 import { FeaturesBento } from '@/components/features-bento';
 import { Button } from '@/components/ui/button';
+import { MacbookScroll } from '@/components/ui/macbook-scroll';
 import Marquee from '@/components/ui/marquee';
 import { cn } from '@/lib/utils';
 
@@ -67,17 +68,34 @@ export default function Home() {
         <section id="about" className="w-full">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-5xl">¿Como comenzó UTUTO?</h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  UTUTO surgió en el año 2000 como la primera distribución GNU/Linux reconocida por el Proyecto GNU,
-                  gracias a su dedicación exclusiva al software libre. Creado por Diego Saravia en Argentina, se
-                  popularizó por su accesibilidad y la novedad del CD vivo. A lo largo de los años, UTUTO ha
-                  evolucionado con variantes como UTUTO-R y UTUTO XS, manteniendo siempre su espíritu original. Tras una
-                  pausa, la comunidad se ha organizado para revivir y actualizar UTUTO para los usuarios actuales.
-                  Conocé más sobre esta fascinante historia en la entrevista a Diego Saravia, alma y fundador de UTUTO
-                </p>
+              <div className="flex w-full flex-col items-center justify-center overflow-hidden [mask-image:linear-gradient(to_bottom,white,rgba(255,255,255,0.8),transparent)]">
+                <MacbookScroll
+                  title={
+                    <>
+                      ¿Como comenzó <span className="font-extrabold">UTUTO</span>?
+                    </>
+                  }
+                  badge={
+                    <Image
+                      src="/logo.png"
+                      width={100}
+                      height={100}
+                      className="h-10 w-10 -rotate-12 transform"
+                      alt="ututo badge"
+                    />
+                  }
+                  src={`/web-preview.png`}
+                  showGradient={false}
+                />
               </div>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                UTUTO surgió en el año 2000 como la primera distribución GNU/Linux reconocida por el Proyecto GNU,
+                gracias a su dedicación exclusiva al software libre. Creado por Diego Saravia en Argentina, se
+                popularizó por su accesibilidad y la novedad del CD vivo. A lo largo de los años, UTUTO ha evolucionado
+                con variantes como UTUTO-R y UTUTO XS, manteniendo siempre su espíritu original. Tras una pausa, la
+                comunidad se ha organizado para revivir y actualizar UTUTO para los usuarios actuales. Conocé más sobre
+                esta fascinante historia en la entrevista a Diego Saravia, alma y fundador de UTUTO
+              </p>
             </div>
             <div className="flex items-center justify-center">
               <Image
@@ -85,7 +103,7 @@ export default function Home() {
                 alt="about us image"
                 width={1000}
                 height={1000}
-                className="drop-shadow-md"
+                className="w-auto drop-shadow-md"
               />
             </div>
           </div>
