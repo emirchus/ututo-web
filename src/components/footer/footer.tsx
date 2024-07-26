@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className="flex w-full shrink-0 flex-col items-center gap-2 px-4 py-6 md:px-6">
       <div className="grid w-full grid-cols-2 gap-2 md:grid-cols-6">
         <div className="col-span-2 flex flex-col gap-2">
-          <h6 className="text-lg font-semibold">Ututo Linux</h6>
+          <h4 className="text-lg font-semibold">Ututo Linux</h4>
           <p className="text-sm">Ututo es una distribución de Linux Argentina, hecha por la comunidad.</p>
         </div>
         <div className="flex flex-col gap-2">
@@ -117,17 +117,21 @@ export const Footer = () => {
           </p>
         </div>
         <div className="flex flex-row items-center gap-2 md:items-end">
-          <a href="/" target="_blank" referrerPolicy="no-referrer">
+          <a href="/" target="_blank" referrerPolicy="no-referrer" aria-label="github">
             <GithubLogo className="h-5 w-5" />
+            <span className="sr-only">Github</span>
           </a>
-          <a href="https://x.com/proyecto_ututo" target="_blank" referrerPolicy="no-referrer">
+          <a href="https://x.com/proyecto_ututo" target="_blank" referrerPolicy="no-referrer" aria-label="x">
             <XLogo className="h-5 w-5" />
+            <span className="sr-only">X</span>
           </a>
           <a href="https://www.linkedin.com/company/proyecto-ututo/" target="_blank" referrerPolicy="no-referrer">
             <LinkedinLogo className="h-5 w-5" />
+            <span className="sr-only">LinkedIn</span>
           </a>
           <a href="https://t.me/joinchat/AAAAAA0DzFZcl2IOlXmp9Q" target="_blank" referrerPolicy="no-referrer">
             <TelegramLogo className="h-5 w-5" />
+            <span className="sr-only">Telegram</span>
           </a>
         </div>
       </div>
