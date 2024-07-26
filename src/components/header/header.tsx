@@ -1,6 +1,6 @@
 'use client';
 
-import { Heart, Sidebar } from '@phosphor-icons/react/dist/ssr';
+import { HamburgerMenuIcon } from '@radix-ui/react-icons';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -52,10 +52,6 @@ export const Header = () => {
             Ayuda
           </Link>
         </nav>
-        <Button variant={'secondary'} className="hidden md:block">
-          <Heart className="mr-2 hidden h-4 w-4" />
-          Colaborar
-        </Button>
         <Button variant={'shine'} className="ml-2 mr-2 hidden items-center justify-center md:flex" asChild>
           <a href="https://github.com/ututolinux/" target="_blank">
             <Image src={'/ututo-11.png'} alt="ututo-11" width={24} height={24} className="mr-2 h-4 w-4" />
@@ -65,8 +61,8 @@ export const Header = () => {
         <ModeToggle />
         <Sheet>
           <SheetTrigger asChild>
-            <Button variant={'outline'} size={'icon'} className="ml-auto md:hidden">
-              <Sidebar className="h-4 w-4" weight="duotone" />
+            <Button variant={'ghost'} size={'icon'} className="ml-auto md:hidden">
+              <HamburgerMenuIcon className="h-4 w-4" />
             </Button>
           </SheetTrigger>
           <SheetContent>
