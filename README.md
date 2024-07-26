@@ -7,7 +7,7 @@ Bienvenido al repositorio del sitio web (no oficial) de UTUTO, la distribución 
 
 ## Acerca de UTUTO
 
-UTUTO es una distribución del sistema operativo GNU que utiliza su propio núcleo Linux Libre. El nombre hace referencia a una especie de lagartija (Homonota borelli) del norte de Argentina. UTUTO fue la primera distribución reconocida como totalmente libre por el Proyecto GNU y es conocida por su capacidad de optimización y rendimiento.
+UTUTO es una distribución del sistema operativo GNU que utiliza su propio núcleo Linux Libre. El nombre hace referencia a una especie de lagartija (Homonota borelli) del norte de Argentina. UTUTO fue la primera distribución reconocida como **totalmente libre** por el Proyecto GNU, y es conocida por su capacidad de optimización y rendimiento.
 
 ### Historia
 
@@ -30,23 +30,23 @@ UTUTO es una distribución del sistema operativo GNU que utiliza su propio núcl
 
 ### Prerrequisitos
 
-Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [PNPM](https://pnpm.io/es).
+Asegurate de contar con [Node.js](https://nodejs.org/) y [PNPM](https://pnpm.io/es) instalado.
 
 ### Instalación
 
-1. Clona el repositorio:
+1. Cloná el repositorio:
 
    ```bash
    git clone https://github.com/emirchus/ututo-web.git
    cd ututo-web
    ```
 
-2. Instala las dependencias:
+2. Instalá las dependencias:
    ```bash
    pnpm install
    ```
 
-### Comandos Disponibles
+### Comandos disponibles
 
 - `pnpm dev`: Inicia el servidor de desarrollo.
 - `pnpm build`: Compila el proyecto para producción.
@@ -55,32 +55,32 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [PNPM](https://pn
 
 ### Depuración
 
-Para debugear el proyecto, utiliza el siguiente comando:
+Para debugear el proyecto, utilizá el siguiente comando:
 
 ```bash
 pnpm dev
 ```
 
-Esto iniciará el servidor de desarrollo y te permitirá depurar el código en tiempo real utilizando las herramientas de desarrollo de tu navegador.
+Ésto iniciará el servidor de desarrollo, y te permitirá depurar el código en tiempo real utilizando las herramientas de desarrollo de tu navegador.
 
 ### Despliegue
 
-Para desplegar el proyecto, sigue estos pasos:
+Para desplegar el proyecto, seguí estos pasos:
 
-1. Compila el proyecto:
+1. Compilá el proyecto:
 
    ```bash
    pnpm build
    ```
 
-2. Sirve los archivos compilados:
+2. Serví los archivos compilados:
    ```bash
    pnpm start
    ```
 
 ## Contribuciones
 
-¡Contribuciones son bienvenidas! Por favor, abri un issue o envía un pull request con tus mejoras y sugerencias.
+¡Las contribuciones son bienvenidas! Por favor, abrí un issue, o enviá un pull request con tus mejoras y sugerencias.
 
 ## Licencia
 
@@ -88,4 +88,4 @@ Este proyecto está licenciado bajo la [Licencia GPL v3](LICENSE).
 
 ---
 
-Esperamos que disfrutes utilizando UTUTO. Para más información, visita nuestro [sitio web oficial](https://ututo.org).
+Esperamos que disfrutes utilizando UTUTO. Para más información, visitá nuestro [sitio web oficial](https://ututo.org).
