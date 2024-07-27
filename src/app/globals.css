@@ -80,7 +80,7 @@
   }
 
   body {
-    @apply bg-background font-body text-foreground relative;
+    @apply relative bg-background font-body text-foreground;
   }
 
   h1,
@@ -109,4 +109,19 @@
   to {
     mask-size: 350vmax;
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: var(--radius);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--border));
+  border-radius: var(--radius);
 }
