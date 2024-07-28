@@ -22,7 +22,7 @@ export const Header = () => {
       animate="show"
       variants={springVariants}
       viewport={{ once: true }}
-      className="h-18 sticky top-0 z-10 border-b border-border/20 bg-background/20 px-4 py-2 backdrop-blur lg:px-6"
+      className="h-18 sticky top-0 z-20 border-b border-border/20 bg-background/20 px-4 py-2 backdrop-blur lg:px-6"
     >
       <div className="container flex flex-row items-center">
         <Image width={50} height={50} src={'/logo.png'} alt="logo" className="mr-2 h-8 w-auto object-scale-down" />
