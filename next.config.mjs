@@ -5,6 +5,13 @@ const nextConfig = {
       fullUrl: true,
     },
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'github.com',
+      },
+    ],
+  },
 };
 
 export default nextConfig;

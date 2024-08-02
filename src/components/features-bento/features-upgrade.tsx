@@ -6,7 +6,7 @@ import Marquee from '../ui/marquee';
 export function FeatureUpgrade() {
   return (
     <div className="absolute flex max-h-[400px] min-h-[400px] w-full flex-col overflow-hidden rounded-lg p-6 [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)]">
-      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg">
+      <div className="pointer-events-none relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg">
         <Marquee className="w-full [--duration:60s]" repeat={2}>
           {[
             {
@@ -52,28 +52,20 @@ export function FeatureUpgrade() {
         <Marquee className="w-full [--duration:60s]" repeat={2} reverse>
           {[
             {
-              url: 'https://github.com/ututolinux/wallpapers/blob/main/wallpaper%20colores%20centrado.png?raw=true',
+              url: '/screenshots/1.png',
               title: 'Colores centrado',
             },
             {
-              url: 'https://github.com/ututolinux/wallpapers/blob/main/wallpaper%20colores%20simple.png?raw=true',
+              url: '/screenshots/2.png',
               title: 'Colores simple',
             },
             {
-              url: 'https://github.com/ututolinux/wallpapers/blob/main/wallpaper%20colores%20textura.png?raw=true',
+              url: '/screenshots/3.png',
               title: 'Colores textura',
             },
             {
-              url: 'https://github.com/ututolinux/wallpapers/blob/main/wallpaper%20violetas.png?raw=true',
+              url: '/screenshots/4.png',
               title: 'Violetas',
-            },
-            {
-              url: 'https://i.imgur.com/AisXUeV.png',
-              title: 'Spacing green',
-            },
-            {
-              url: 'https://i.imgur.com/2A8zYL1.jpeg',
-              title: 'spacing violet',
             },
           ].map(item => {
             return (
